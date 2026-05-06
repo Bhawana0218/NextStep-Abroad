@@ -435,36 +435,6 @@ set((state) => ({
 
 ---
 
-## 📝 Assignment Checklist
-
-| Requirement | Status |
-|---|---|
-| Next.js project | ✅ |
-| Material UI for all components | ✅ |
-| Zustand state management | ✅ |
-| DummyJSON API integration | ✅ |
-| Login page with MUI | ✅ |
-| DummyJSON auth API | ✅ |
-| Token stored in Zustand + localStorage | ✅ |
-| Redirect after login | ✅ |
-| Protected routes | ✅ |
-| Users list with pagination | ✅ |
-| Users search | ✅ |
-| Single user page | ✅ |
-| Products list with pagination | ✅ |
-| Products search | ✅ |
-| Category filter | ✅ |
-| Single product page with carousel | ✅ |
-| Zustand async actions | ✅ |
-| Zustand explanation (README + comments) | ✅ |
-| React.memo | ✅ |
-| useCallback / useMemo | ✅ |
-| API-side pagination | ✅ |
-| Client-side caching | ✅ |
-| Responsive design | ✅ |
-| Charts & data visualization (bonus) | ✅ |
-
----
 
 ## 👨‍💻 Author
 
