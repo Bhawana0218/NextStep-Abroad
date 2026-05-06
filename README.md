@@ -435,6 +435,36 @@ set((state) => ({
 
 ---
 
+## 📝 Assignment Checklist
+
+| Requirement | Status |
+|---|---|
+| Next.js project | Yes |
+| Material UI for all components | Yes |
+| Zustand state management | Yes |
+| DummyJSON API integration | Yes |
+| Login page with MUI | Yes |
+| DummyJSON auth API | Yes |
+| Token stored in Zustand + localStorage | Yes |
+| Redirect after login | Yes |
+| Protected routes | Yes |
+| Users list with pagination | Yes |
+| Users search | Yes |
+| Single user page | Yes |
+| Products list with pagination | Yes |
+| Products search | Yes |
+| Category filter | Yes |
+| Single product page with carousel | Yes |
+| Zustand async actions | Yes |
+| Zustand explanation (README + comments) | Yes |
+| React.memo | Yes |
+| useCallback / useMemo | Yes |
+| API-side pagination | Yes |
+| Client-side caching | Yes |
+| Responsive design | Yes |
+| Charts & data visualization | Yes |
+
+---
 
 ## 👨‍💻 Author
 
