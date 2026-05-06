@@ -26,25 +26,29 @@ function UserSearch({ value, onChange, placeholder }: UserSearchProps) {
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder || "Search users by name, email, or username..."}
         variant="outlined"
-        InputProps={{
-          startAdornment: (
-            <InputAdornment position="start">
-              <SearchIcon color="action" />
-            </InputAdornment>
-          ),
-          endAdornment: value ? (
-            <InputAdornment position="end">
-              <Tooltip title="Clear search">
-                <IconButton
-                  size="small"
-                  onClick={() => onChange("")}
-                  aria-label="clear search"
-                >
-                  <ClearIcon fontSize="small" />
-                </IconButton>
-              </Tooltip>
-            </InputAdornment>
-          ) : null,
+
+        slotProps={{
+          input: {
+            startAdornment: (
+              <InputAdornment position="start">
+                <SearchIcon color="action" />
+              </InputAdornment>
+            ),
+
+            endAdornment: value ? (
+              <InputAdornment position="end">
+                <Tooltip title="Clear search">
+                  <IconButton
+                    size="small"
+                    onClick={() => onChange("")}
+                    aria-label="clear search"
+                  >
+                    <ClearIcon fontSize="small" />
+                  </IconButton>
+                </Tooltip>
+              </InputAdornment>
+            ) : null,
+          },
         }}
       />
     </Box>
